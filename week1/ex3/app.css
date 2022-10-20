@@ -107,44 +107,45 @@ img#logo {
 span:hover {
 	background-color: #009dcb;
 }
-.block {
-	display: block;
-	background: none repeat scroll 0 0 #fdfdfd;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 8px 10px;
-	font-family: sans-serif,Arial,Helvetica;
-}
-.block .item-list ul li, .item-list ul li {
-    background: url(../images/list-style.png) no-repeat 0 4px;
-    list-style: none;
-    padding-left: 12px;
-}
-.item-list ul li, .block .item-list ul li {
-    background: url(../images/list-style.png) no-repeat 0 4px;
-	line-height: 20px;
-    list-style: none;
-    padding-left: 12px;
-}
-.block .item-list a {
-	color: #08c;
-}
-.block .more-link a {
-	display: inline;
-    text-transform: none;
-	color: #08c;
-    clear: both;
-    line-height: 1.4em;
-    margin-top: -0.90em;
-    text-align: left;
-    letter-spacing: .02em;
-    font-weight: 600;
-    font-size: 12px;
-	float: right;
-	
-}
-a, a:hover {
-    text-decoration: none;
-	cursor: pointer;
-}
+body {
+	padding: 10px 120px;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .image {
+	width: 100%;
+	height: 100%;  
+	padding: 10px 0px;
+  }
+  
+  .content {
+	margin: 20px 0;
+  }
+  
+  .content-2 {
+	padding: 8px 0;
+  }
+  
+  .company {
+	width: 10%;
+	height: 10%;
+  }
+  
+  .content-bottom {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .bottom {
+	padding-right: 40px;
+	padding-top: 20px;
+  }
+  
+  .footer {
+	padding-left: 30px;
+	padding-bottom: 10px;
+  }

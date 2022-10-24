@@ -101,6 +101,10 @@ p {
     opacity: 0.4;
     outline: none;
 }
+.btn-see-prof a{
+    text-decoration: none;
+    color: white;
+}
 
 .skill-cell {
     padding-right: 100px;

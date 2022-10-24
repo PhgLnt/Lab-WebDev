@@ -1,4 +1,9 @@
-
+class TemplateProcessor {
+    fillIn ()
+    {
+        
+    }
+}
 var template = 'My favorite month is {{month}} but not the day {{day}} or the year {{year}}';
 var dateTemplate = new TemplateProcessor(template);
 

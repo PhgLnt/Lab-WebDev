@@ -94,12 +94,10 @@ p {
     border-radius: 8px;
     font-size: 25px;
     color: white;
-    outline: none;
-    
+   
 }
 .btn-see-prof:hover{
     opacity: 0.4;
-    outline: none;
 }
 
 .skill-cell {

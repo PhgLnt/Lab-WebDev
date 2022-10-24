@@ -129,7 +129,7 @@ p {
     list-style: none;
 }
 .btn-dropdown h5 {
-    color: rgb(7, 72, 58);
+    color: rgb(127, 180, 155);
     font-size: 30px;
 }
 .btn-dropdown{
@@ -190,7 +190,6 @@ p {
  #icon {
     background-color: rgba(255, 255, 255, 0.04);
     width: 4rem;
-    color: var(--color-dark);
     height: 4rem;
     text-align: center;
     font-size: 1.8rem;

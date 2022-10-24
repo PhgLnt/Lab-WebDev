@@ -1,0 +1,118 @@
+/* Reset css
+*/
+/* Reset css
+*/
+* {
+    box-sizing: border-box;
+    
+}
+div {
+    display: block;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.italic {
+    font-style: italic !important;
+}
+.text-center {
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgb(240, 233, 233);
+    margin: 20px 0;
+}
+h1 {
+    color: rgb(102, 192, 192);
+}
+h3 {
+    font-size: 25px;
+    color: rgb(102, 192, 192)
+}
+h5 {
+    font-size: 20px;
+    line-height: 0px;
+}
+.text-justify {
+    text-align: justify !important;
+}
+.row {
+    margin: 4px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-third {
+    width: 33.33333%;
+}
+.col-half {
+    width: 50%;
+}
+col-
+.col-forty {
+    width: 40%;
+}
+.col-sixty {
+    width: 60%;
+}
+.col-forth {
+    width: 25%;
+}
+.profile img {
+    width: 320px;
+    height: 250px;
+    padding: 20px;
+}
+
+.experience {
+    background-color: rgb(252, 252, 241);
+}
+p {
+    font-size: 20px; 
+    color: black;
+}
+.see-prof h6 {
+    font-size: 15px;
+    color: gray;
+    padding-top: 50px;
+
+}
+.btn-see-prof {
+    background-color: rgb(22, 114, 114);
+    border: none;
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 25px;
+    color: white;
+    outline: none;
+    
+}
+.btn-see-prof:hover{
+    opacity: 0.4;
+    outline: none;
+}
+
+.skill-cell {
+    padding-right: 100px;
+    padding-bottom: 20px;
+
+}
+.bi-square {
+    color: rgb(6, 122, 97);
+    font-size: 24px;
+    
+}
+.no-skill {
+    color: rgb(224, 223, 223);
+}
+

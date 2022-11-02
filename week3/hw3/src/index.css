@@ -11,3 +11,228 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Reset css
+*/
+/* Reset css
+*/
+* {
+  box-sizing: border-box;
+  
+}
+div {
+  display: block;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.italic {
+  font-style: italic !important;
+}
+.text-center {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgb(240, 233, 233);
+  margin: 20px 0;
+}
+h1 {
+  color: rgb(102, 192, 192);
+}
+h3 {
+  font-size: 25px;
+  color: rgb(102, 192, 192)
+}
+h5 {
+  font-size: 20px;
+  line-height: 0px;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.row {
+  margin: 4px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.col {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-third {
+  width: 33.33333%;
+}
+.col-half {
+  width: 50%;
+}
+col-
+.col-forty {
+  width: 40%;
+}
+.col-sixty {
+  width: 60%;
+}
+.col-forth {
+  width: 25%;
+}
+.profile img {
+  width: 320px;
+  height: 250px;
+  padding: 20px;
+}
+
+.experience {
+  background-color: rgb(252, 252, 241);
+}
+p {
+  font-size: 20px; 
+  color: black;
+}
+.see-prof h6 {
+  font-size: 15px;
+  color: gray;
+  padding-top: 50px;
+
+}
+.btn-see-prof {
+  background-color: rgb(22, 114, 114);
+  border: none;
+  width: 300px;
+  height: 70px;
+  border-radius: 8px;
+  font-size: 25px;
+  color: white;
+  outline: none;
+  
+}
+.btn-see-prof:hover{
+  opacity: 0.4;
+  outline: none;
+}
+.btn-see-prof a{
+  text-decoration: none;
+  color: white;
+}
+
+.skill-cell {
+  padding-right: 100px;
+  padding-bottom: 20px;
+
+}
+.bi-square {
+  color: rgb(6, 122, 97);
+  font-size: 24px;
+  
+}
+.no-skill {
+  color: rgb(224, 223, 223);
+}
+.menu {
+display: flex;
+align-items: end;
+flex-direction: column;
+height: 80px;
+}
+.menu li {
+  list-style: none;
+}
+.btn-dropdown h5 {
+  color: rgb(127, 180, 155);
+  font-size: 30px;
+}
+.btn-dropdown{
+  background-color: rgb(25, 107, 90);
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+}
+.navbar-link {
+  width: 200px;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.navbar li .navbar-link {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--color-bgr);
+  overflow: hidden;
+}
+.navbar li .navbar-link ul {
+  z-index: 8;
+  position: relative;
+  overflow: hidden;
+  width: 20rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: margin 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: var(--color-white);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.navbar li .navbar-link ul.dropdown {
+  opacity: 1 !important;
+  visibility: visible !important;
+  margin-top: 0 !important;
+  background-color: black;
+  color: #fff;
+  border-radius: 8px;
+}
+.navbar li .navbar-link li {
+  color: var(--color-dark);
+  padding: 2rem;
+}
+.navbar li .navbar-link li:not(:last-child) {
+  border-bottom: 1px solid var(--color-bgr);
+}
+.navbar li .navbar-link li a {
+  color: var(--color-dark);
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar li .navbar-link li:hover a {
+  color: var(--color-red);
+}
+#icon {
+  background-color: rgba(255, 255, 255, 0.04);
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+  position: relative;
+  display: inline-block;
+}
+.navbar-link > span {
+  padding: 2rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: var(--color-dark);
+  position: relative;
+  z-index: 10;
+}
+.navbar-link > span i {
+  color: var(--color-dark);
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.navbar-link > span.active {
+  background-color: var(--color-muted);
+  color: #fff;
+}
+.navbar-link > span.active i {
+  color: #fff;
+}
+
+
+
